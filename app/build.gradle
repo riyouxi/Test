@@ -7,17 +7,13 @@ def releaseTime() {
 android {
     signingConfigs {
         release {
-            keyAlias 'sslc'
-            keyPassword '123456'
-            storeFile file('D:/sslc.keystore')
-            storePassword '123456'
         }
         debug{
 
         }
     }
     compileSdkVersion 24
-    buildToolsVersion '24.0.0'
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "calm.com.test"
         minSdkVersion 21
